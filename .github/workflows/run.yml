@@ -115,4 +115,4 @@ jobs:
           BOT_PID=$!
           ( sleep 20700 && echo "⏰ Time's up. Restarting bot..." && kill -SIGTERM $BOT_PID ) &
           wait $BOT_PID
-          echo "Bot ended cleanly."  
+          echo "Bot ended cleanly."   
