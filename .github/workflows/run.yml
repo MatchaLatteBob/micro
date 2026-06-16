@@ -60,7 +60,7 @@ jobs:
       - name: Fetch Latest Stockfish
         run: |
 
-          chmod +x engines/ShashChess39
+          chmod +x engines/stockfish
 
       - name: Inject Lichess Bot Token
         env:
